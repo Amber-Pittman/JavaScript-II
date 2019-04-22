@@ -63,9 +63,8 @@ Combine both the first and last names into a new array called fullName. */
 let fullName = [];
 
 runners.forEach(function(fullName) {
-    console.log(fullName.first_name);
-    console.log(fullName.last_name);
-}
+    console.log(fullName.first_name, fullName.last_name);
+});
 
 // ==== Challenge 2: Use .map() ====
 /* The event director needs to have all the runner's first names converted to uppercase because the director 
@@ -95,4 +94,4 @@ and then solve 3 unique problems using one or many of the array methods listed a
 
 // Problem 2
 
-//Problem 3
+// Problem 3
