@@ -68,6 +68,11 @@ console.log(multiplyNums (4, 4, times));
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
+  if (item === present) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /* STRETCH PROBLEM */
