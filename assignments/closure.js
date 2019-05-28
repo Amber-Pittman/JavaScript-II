@@ -1,6 +1,12 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const student = "Amber Pittman";
 
+function intro() {
+  console.log(`Hi, I'm ${student} and I go to Lambda School! I study Full Stack Web Development!`);
+}
+
+intro();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
